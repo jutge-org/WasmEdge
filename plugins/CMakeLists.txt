@@ -119,3 +119,6 @@ endif()
 if(WASMEDGE_PLUGIN_ZLIB)
   add_subdirectory(wasmedge_zlib)
 endif()
+
+# WasmEdge plug-in: test!
+add_subdirectory(test)
